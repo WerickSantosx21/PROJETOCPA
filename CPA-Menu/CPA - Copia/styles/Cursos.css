@@ -1,0 +1,136 @@
+:root{
+    --fonte-principal: "Montserrat", sans-serif;
+    --cor-de-fundo: #a9bce2;
+    --preto: #171717;
+    --vermelho: #DE261A;
+    --azul-escuro: #1B3F91;
+    --lilas: #8E3F90;
+    --laranja: #DE5D25;
+    --amarelo: #F4E100;
+    --ciano: #1FB3AC;
+    --cinza-claro: #E6DFD8;
+    --branco: #f5f5f5;
+    --cinza-escuro: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/fundocomu.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.texto_cursos{
+    padding: 2rem;
+    font-size: 40px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    color: var(--lilas);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-top: 100px;
+    width: 100%x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.texto_cursos:hover{
+    color: var(--#8E3F90);
+    
+}
+
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+    margin: 90px auto;
+}
+
+
+.curso-box {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.curso-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+
+.conteudo {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.curso-box h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.curso-box p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.botao-saiba-mais {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.botao-saiba-mais:hover {
+    background-color: #0056b3;
+}
+
+
+.fundo-curso1 {
+    background-image: url('../assets/eventos.png');
+}
+
+.fundo-curso2 {
+    background-image: url('../assets/assis.jpg');
+}
+
+.fundo-curso3 {
+    background-image: url('../assets/auxadm.jpg');
+}
+
+.fundo-curso4 {
+    background-image: url('../assets/eletrica.jpg');
+}

@@ -1,0 +1,60 @@
+:root{
+    --fonte-principal: "Montserrat";
+    --cor-de-fundo: #a9bce2;
+    --preto: #171717;
+    --vermelho: #DE261A;
+    --azul-escuro: #1B3F91;
+    --lilas: #8E3F90;
+    --laranja: #DE5D25;
+    --amarelo: #F4E100;
+    --ciano: #1FB3AC;
+    --cinza-claro: #E6DFD8;
+    --branco: #f5f5f5;
+    --cinza-escuro: #222;
+}
+
+
+.rodape {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.rodape-lista {
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.rodape-lista li {
+    margin-bottom: 5px;
+}
+
+#rodape_redessociais {
+    margin-top: 20px;
+}
+
+.rodape-link {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#instagram:hover {
+    color: var(--lilas); 
+}
+
+#facebook:hover {
+    color: var(--azul-escuro); 
+}
+
+#rodape_copyright {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #aaa;
+}
